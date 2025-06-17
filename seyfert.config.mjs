@@ -6,7 +6,7 @@ export default config.bot({
         base: "lib",
         commands: "commands"
     },
-    intents: ["Guilds"],
+    intents: ["Guilds", "GuildMessages", "MessageContent"],
     publicKey: "...",
     port: 4444,
 });
